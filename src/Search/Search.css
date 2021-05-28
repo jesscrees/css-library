@@ -1,0 +1,23 @@
+.Search {
+  background-color: antiquewhite;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem 2rem 2rem;
+}
+
+.Search label {
+  align-items: center;
+  color: black;
+  display: flex;
+  flex-direction: column;
+}
+
+.Search input[type="text"] {
+  border: 1px solid lightgray;
+  border-radius: 1rem;
+  margin-top: 0.5rem;
+  padding: 1rem 1.5rem;
+  text-align: center;
+  width: 20rem;
+}
